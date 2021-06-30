@@ -1,0 +1,6 @@
+#card
+{
+flex-direction: row !important;
+flex-wrap: wrap !important;
+margin: 30px !important;
+}

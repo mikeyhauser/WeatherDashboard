@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+  <!-- Here is the header -->
+  <section class="hero is-primary">
+    <div class="hero-body">
+      <p class="title has-text-centered is-size-1 pb-3">
+        Weather Dashboard </p>
+      <p class="subtitle has-text-centered">
+        see the weather outlook for multiple cities </p>
+      <p class="subtitle has-text-centered">
+        plan a trip accordingly </p>
+    </div>
+  </section>
+  <!-- City input below (left side is instructions, right side is input box and button) -->
+  <div class="columns is-desktop">
+    <div class="column"></div>
+    <div id="city" class="column">
+      <!-- Instructions -->
+      <p class="pt-6 is-size-4 has-text-centered has-text-primary">
+        Enter City Name:
+      </p>
+    </div>
+    <div class="column">
+      <!-- Input box and button -->
+      <div class="field pb-3 pt-6">
+        <input id="userInput" class="input is-primary is-medium" type="text"
+          placeholder="Please type your city name...">
+      </div>
+      <button id="weatherButton" class="button is-primary is-outlined has-text-black  is-rounded city-button">Show
+        Forcast</button>
+    </div>
+    <div class="column"></div>
+  </div>
+  <!-- Here is where the weather info will be displayed depending on what we would like to include -->
+  
+  <div class="container" id="issues">
+    <p class="is-size-4">Today's Forcast</p>
+    <p id=today class="is-size-8 has-text-centered has-text-primary has-background-primary-light"> </p>
+    
+  </div>
+  <!-- Three recommended drinks -->
+  <div class="columns is-centered is-desktop">
+    <div class="column is-12">
+      <div class="tile is-parent has-text-centered p-5">
+        <article class="tile is-child box">
+          <p id="day1" class="drinkNames is-size-2 mb-5 has-text-primary">6 Day Forcast:</p>
+
+          <div class="container">
+            <div class="row align-items-start" id="fiveDay">
+            </div>
+
+
+
+            <!-- Button to open the modal -->
+
+        </article>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal that pops up when you click the "Recipe" button under recommended drinks -->
+  <!-- Footer -->
+  <footer class="footer">
+  </footer>
+</body>
+<script src="new.js"></script>
+
+</html>
