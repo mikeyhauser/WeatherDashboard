@@ -90,7 +90,7 @@ function getWeather() {
 
 
                     dateToday.textContent = todayDt;
-                    tempToday.textContent = "Daytime temp (in K): " + data.current.temp.day;
+                    tempToday.textContent = "Daytime temp (in K): " + data.current.temp;
                     humToday.textContent = "Humidity: " + data.current.humidity;
                     windToday.textContent = "Wind Speed: " + data.current.wind_speed;
                     uviToday.textContent = "UVI: " + data.current.uvi;
