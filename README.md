@@ -1,6 +1,6 @@
 # Server-Side APIs: Weather Dashboard
 
-
+Deployed Site: https://mikeyhauser.github.io/WeatherDashboard/
 Third-party APIs allow developers to access their data and functionality by making requests with specific parameters to a URL.
 
 This app uses the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for cities.
